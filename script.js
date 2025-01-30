@@ -30,18 +30,18 @@ document.addEventListener('DOMContentLoaded', () => {
         }));
     }
     
-    // Funcksjon for å hente innholde fra ressurs filen
+    // Funksjon for å hente innholde fra ressurs filen
     function showCategory(index) {
         const category = resources[index];
         mainSection.innerHTML = '';
     
-    //legge til tittle og tekst
+    //legge til tittel og tekst
         mainSection.append(
             Object.assign(document.createElement('h2'), { textContent: category.category }),
             Object.assign(document.createElement('p'), { textContent: category.text })
         );
     
-    // legge till liste til ressurser
+    // legge til liste til ressurser
     //https://stackoverflow.com/questions/46516359/filter-serilog-logs-to-different-sinks-depending-on-context-source
         const resourceList = document.createElement('ul');
         resourceList.append(...category.sources
