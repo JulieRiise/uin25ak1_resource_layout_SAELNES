@@ -1,0 +1,42 @@
+body {
+    font-family: 'Montserrat';
+    background-color: #E1E5EE;
+    color: #2A324B;
+    margin-left: 150px;
+    margin-top: 150px;
+    max-width: 1000px;
+}
+.dress {
+    display: flex;
+    justify-content: flex-start;
+    white-space: nowrap;
+}
+
+.dress ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 12px;
+}
+
+.dress .knapp {
+    background: #2A324B;
+    border: none;
+    color: #E1E5EE;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 17px 62px;
+}
+.knapp.active {
+    background-color: white;
+    color: #2A324B;
+    font-weight: bold;
+}
+.hovedside {
+    background: #fff;
+    padding: 40px;
+    font-size: 14px;
+    padding-left: 60px;
+    min-height: 250px;
+}
