@@ -30,7 +30,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }));
     }
     
-    // Funksjon for å hente innholde fra ressurs filen
+    // Funksjon for å hente innholdet fra ressurs filen
     function showCategory(index) {
         const category = resources[index];
         mainSection.innerHTML = '';
